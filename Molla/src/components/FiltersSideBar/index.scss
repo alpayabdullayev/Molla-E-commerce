@@ -1,0 +1,35 @@
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background-color: none !important;
+    box-shadow: none !important;
+    border-top: 1px solid #666;
+    border-radius: 0% !important;
+}
+
+.size{
+    padding-top: 20px;  
+}
+
+.category{
+    padding-top: 30px;
+}
+.priceP{
+    margin-left: 15px;
+    span{
+        color: #c96;
+    }
+}
+
+.priceRange{
+    padding-top: 30px
+}
+
+.ant-slider .ant-slider-track{
+    color: #c96;
+    background-color: #c96;
+
+}
+
+.ant-slider:hover .ant-slider-track{
+    color: #c96;
+    background-color: #c96;
+}

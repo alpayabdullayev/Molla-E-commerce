@@ -1,0 +1,45 @@
+:root{
+    --main-bg-color : white;
+    --main-text-color: black;
+    --secondary-bg-color:black;
+    --secondary-text-color:white;
+}
+.dark{
+    --main-bg-color : black;
+    --main-text-color: white;
+    --secondary-bg-color:white;
+    --secondary-text-color:black;
+
+
+}
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+button{
+    color: var(--main-text-color);
+}
+
+.cardBody{
+    color: black;
+}
+
+.addToWishlist button{
+
+        color: black !important;
+
+}
+
+.addTocart button{
+    color: black;
+}
+
+.basketTitle{
+    color: black;  
+}
+
+.wishlist-title{
+    color: black;
+}

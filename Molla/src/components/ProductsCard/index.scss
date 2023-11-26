@@ -1,0 +1,191 @@
+
+.cards{
+    .cardsRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardDF{
+            display: flex;
+            padding-left: 30px;
+            justify-content: center;
+            align-items: center;
+            .cardProductt{
+                .cardContent{
+                    text-align: center;
+                    position: relative;
+                    margin-bottom: 1rem;
+                    transition: box-shadow .35s ease;
+                    background-color: #fff;
+                    transition: all 0.5s ease;
+        
+                    &:hover {
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                        transition: all 0.5s ease;
+                    }
+                    &:hover .cardImg {
+                       .addTocart{
+                        opacity: 1;
+                        visibility: visible;
+                        z-index: 10;
+                        transition: all 0.5s ease;
+                        transform: translateY(0px);
+                       }
+                       .addToWishlist{
+                        opacity: 1;
+                        visibility: visible;
+                        z-index: 10;
+                        transition: all 0.5s ease;
+                        transform: translateX(1px);
+                       }
+                    }
+                    .cardImg{
+                        position: relative;
+                        transition: all 0.5 ease;
+                        aspect-ratio: 1 / 1;
+                        object-fit: contain;
+    
+                        .addTocart{
+                            position: absolute;
+                            bottom: 0px;
+                            transform: translateX(-50%);
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all 0.5s ease;
+                            transform: translateY(30px);
+                            width: 100%;
+
+                            &:hover {
+                                button{
+                                    background-color: #c96;
+                                    transition: all 0.5 ease;
+                                    color: white;
+                                }
+    
+                            }
+                            button{
+                                background-color: white;
+                                width: 100%;
+                                border-bottom: 1px solid #888;
+                                outline: none;
+                                transition: all 0.5 ease;
+                                border: none;  
+                                border-bottom: 1px solid #888; 
+                                padding: 10px 0;
+                            }
+                        }
+                        .addToWishlist{
+                            position: absolute;
+                            top: 20px;
+                            right: 10px;
+                            opacity: 0;
+                            border-radius: 50%;
+    
+                            background-color: white;
+                            visibility: hidden;
+                            transition: all 0.5s ease;
+                            transform: translateX(-9px);
+                            transition: all 0.5 ease;
+                            &:hover {
+                                transition: all 0.5 ease;
+    
+                                button{
+                                    background-color: #c96;
+                                    transition: all 0.5 ease;
+                                    color: white;
+                                }
+                            }
+    
+                            button{
+                                border: none;
+                                font-size: 25px;
+                                background: none;
+                                outline: none;
+                                transition: all 0.5 ease;
+                                width: 35px;
+                                height: 35px;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                    }
+        
+                    .cardBody{
+                    transition: all 0.5s ease;
+        
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.collg3{
+    .cardContent{
+       .cardImg{
+        .addTocart{
+            width: 50%;
+            button{
+                width: 50%;
+            }
+        }
+       }
+    }
+
+}
+.collg12{
+    .cardContent{
+        display: flex;
+        gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+        width: 650px;
+        // width: 100%;
+
+        .cardBody{
+            padding-right: 30px;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .collg12{
+        .cardProductt{
+            width: 400px;
+            .cardContent{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 450px;
+                // width: 100%;
+            }
+        }
+    }
+}
+
+
+.paginationButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    button{
+        background: none;
+        outline: none;
+        border: 1px solid black;
+        padding: 12px 10px;
+        margin-left: 20px;
+        color: #c96;
+        transition: all 0.5s ease;
+
+        &:hover{
+            transition: all 0.5s ease;
+            color: white;
+            background-color: #c96;
+            border: 1px solid white;
+        }
+    }
+}

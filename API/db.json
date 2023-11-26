@@ -1,0 +1,203 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "Dreses",
+            "description": "Brown paperbag waist pencil skirt",
+            "price":60,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID":"1",
+            "rating":5
+        },
+        {
+            "id": 2,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-5.jpg",
+            "category": "T-shirts",
+            "description": "Dark yellow lace cut out swing dress",
+            "price":84,
+            "categoryId": "2",
+            "brand":"Next",
+            "color": "yellow",
+            "size": "L",
+            "sizeID":"4",
+            "rating":4
+        },
+        {
+            "id": 3,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-6.jpg",
+            "category": "Jackets",
+            "description": "Khaki utility boiler jumpsuit",
+            "price":120,
+            "categoryId": "4",
+            "brand":"Stone Island",
+            "color": "green",
+            "size": "M",
+            "sizeID":"3",
+            "rating":3
+        },
+        {
+            "id": 4,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-7.jpg",
+            "category": "Jeans",
+            "description": "Blue utility pinafore denim dress",
+            "price":76,
+            "categoryId": "7",
+            "brand":"Next",
+            "color": "blue",
+            "size": "XXL",
+            "sizeID":"6",
+            "rating":1
+
+        },
+        {
+            "id": 5,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-12.jpg",
+            "category": "Bags",
+            "description": "Blue utility pinafore denim dress",
+            "price":80,
+            "categoryId": "3",
+            "brand":"UGG",
+            "color": "white",
+            "size": "XS",
+            "sizeID":"1",
+            "rating":5
+        },
+        {
+            "id": 6,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-9.jpg",
+            "category": "Shoes",
+            "description": "Beige knitted elastic runner shoes",
+            "price":84,
+            "categoryId": "5",
+            "brand":"New Balance",
+            "color": "pink",
+            "size": "L",
+            "sizeID":"4",
+            "rating":1
+        },
+        {
+            "id": 7,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-10.jpg",
+            "category": "Jumpers",
+            "description": "Yellow button front tea top",
+            "price":80,
+            "categoryId": "6",
+            "brand":"Next",
+            "color": "green",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+
+        },
+        {
+            "id": 8,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "black",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+        },
+        {
+            "id": 9,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "yellow",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":4
+
+        },
+        {
+            "id": 10,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":2
+        },
+        {
+            "id": 11,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+        },
+        {
+            "id": 12,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+        },
+        {
+            "id": 13,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+        },
+        {
+            "id": 14,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":1
+        },
+        {
+            "id": 15,
+            "image": "https://portotheme.com/html/molla/assets/images/products/product-4.jpg",
+            "category": "json-server",
+            "description": "typicode",
+            "price":80,
+            "categoryId": "1",
+            "brand":"Next",
+            "color": "brown",
+            "size": "XS",
+            "sizeID" : "1",
+            "rating":5
+        }
+
+    ]
+}

@@ -1,0 +1,35 @@
+#filterPage{
+    padding: 80px 0;
+    min-height: 100vh;
+    height: 100%;
+}
+
+#rowReverse{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.buttonsFilterPage{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    .colGrid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shopAndWishlist{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 24px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+}

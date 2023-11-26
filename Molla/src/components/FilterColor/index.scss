@@ -1,0 +1,57 @@
+.filter-items-color {
+    display: flex;
+    gap: 10px;
+  
+    .filter-item-color {
+        &:nth-child(1) {
+            .ant-checkbox-inner{
+                background-color: brown;
+                border-radius: 50%;
+            }
+        }
+        &:nth-child(2) {
+            .ant-checkbox-inner{
+                background-color: yellow;
+                border-radius: 50%;
+            }
+        }
+        &:nth-child(3) {
+            .ant-checkbox-inner{
+                background-color: black;
+            }
+        }
+        &:nth-child(4) {
+            .ant-checkbox-inner{
+                background-color: red;
+            }
+        }
+        &:nth-child(5) {
+            .ant-checkbox-inner{
+                background-color: white;
+            }
+        }
+        &:nth-child(6) {
+            .ant-checkbox-inner{
+                background-color: blue;
+            }
+        }
+        &:nth-child(7) {
+            .ant-checkbox-inner{
+                background-color: green;
+            }
+        }
+        &:nth-child(8) {
+            .ant-checkbox-inner{
+                background-color: pink;
+            }
+        }
+        .ant-checkbox-inner{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+
+
+        }  
+    }
+  }
+  
